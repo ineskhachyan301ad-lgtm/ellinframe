@@ -1,4 +1,4 @@
-const items = ["STUDIO RENTAL", "WEDDINGS", "COMMERCIAL", "PORTRAITS", "EST. 2026", "RAPHAEL PATKANYAN"]
+const items = ["STUDIO RENTAL", "WEDDINGS", "COMMERCIAL", "PORTRAITS", "EST. 2026", "SOS MANUKYAN 11/1"]
 
 function MarqueeGroup({ ariaHidden = false }: { ariaHidden?: boolean }) {
   return (
