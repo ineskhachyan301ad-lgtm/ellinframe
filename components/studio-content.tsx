@@ -27,7 +27,7 @@ export function StudioContent() {
         <div className="relative h-[340px] w-full overflow-hidden md:h-[440px]">
           <img
             src="/images/studio-hero.png"
-            alt="Bright sunlit photography studio loft with floor-to-ceiling windows"
+            alt="White cyclorama studio corner with a curved seamless wall and a large window looking onto the street"
             className="h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent to-background/20" />
@@ -104,7 +104,7 @@ export function StudioContent() {
             <div className="group mt-10 h-[260px] w-full max-w-sm overflow-hidden">
               <img
                 src="/images/studio-setup.png"
-                alt="Professional studio lighting and grip setup"
+                alt="Studio lighting setup with a Godox octabox, gridded softbox and a Canon camera on a pedestal"
                 className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
               />
             </div>
