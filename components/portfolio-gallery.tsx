@@ -14,13 +14,48 @@ type Shot = {
 
 // Combined, ordered for an asymmetric masonry flow across 3 columns
 const shots: Shot[] = [
-  { image: "/images/portfolio-1.png", alt: "Woman crouching in an all-black outfit and beret", category: "Portrait" },
+  {
+    image: "/images/portrait-a.png",
+    alt: "Close-up of a woman with dark curly hair, chunky gold and silver hoop earrings and a burgundy halter top",
+    category: "Portrait",
+  },
   { image: "/images/portfolio-2.png", alt: "Woman on a stool in a black blazer and jeans", category: "Fashion" },
+  {
+    image: "/images/portrait-b.png",
+    alt: "Red-haired woman with her eyes closed and hands clasped under her chin in a black top",
+    category: "Portrait",
+  },
   { image: "/images/portfolio-3.png", alt: "Woman in an oversized brown leather jacket", category: "Fashion" },
-  { image: "/images/portfolio-4.png", alt: "Man lit in dramatic red and blue studio lighting", category: "Portrait" },
+  {
+    image: "/images/portrait-c.png",
+    alt: "Woman with blonde-balayage waves in an oversized black blazer over a white top",
+    category: "Portrait",
+  },
   { image: "/images/portfolio-5.png", alt: "Person in a white graphic tee and red tights", category: "Brand" },
+  {
+    image: "/images/portrait-d.png",
+    alt: "Beauty portrait with coral-pink eyeshadow, long white nails and a black fur wrap",
+    category: "Portrait",
+  },
   { image: "/images/portfolio-6.png", alt: "Woman in a white blazer on a city street", category: "Family" },
+  {
+    image: "/images/portrait-e.png",
+    alt: "Low-angle portrait of a curly-haired woman with hoop earrings and a burgundy halter top",
+    category: "Portrait",
+  },
+  { image: "/images/portfolio-1.png", alt: "Woman crouching in an all-black outfit and beret", category: "Portrait" },
+  {
+    image: "/images/portrait-f.png",
+    alt: "Woman with slicked-back hair and amber gemstone earrings in a brown pinstripe jacket",
+    category: "Portrait",
+  },
   { image: "/images/portfolio-7.png", alt: "Woman in an oversized brown pinstripe blazer", category: "Brand" },
+  {
+    image: "/images/portrait-g.png",
+    alt: "Symmetrical beauty portrait with pink eye makeup framed by a black fur collar",
+    category: "Portrait",
+  },
+  { image: "/images/portfolio-4.png", alt: "Man lit in dramatic red and blue studio lighting", category: "Portrait" },
   { image: "/images/portfolio-10.png", alt: "Beauty portrait of a woman in a black plunging top", category: "Portrait" },
   { image: "/images/portfolio-8.png", alt: "Woman in a black blazer over a white top", category: "Family" },
   { image: "/images/portfolio-9.png", alt: "Woman crouching in a sheer brown outfit and heels", category: "Fashion" },
