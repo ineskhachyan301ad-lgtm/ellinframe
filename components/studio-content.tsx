@@ -11,12 +11,10 @@ const packages = [
 ]
 
 const equipment = [
-  "Profoto B10 Plus (×2)",
-  "Profoto B1X (×2)",
-  "Profoto Para 133",
-  "Profoto RFi Softbox 3×4 (×3)",
-  "Elinchrom Indirect 150cm",
-  "Bowens S-Type 150cm",
+  "(Godox SK 400 lll V)x2",
+  "Octobox Godox SB-FW95",
+  "(Softbox Godox SB-FW80120)x2",
+  "Godox Beauty Dish",
 ]
 
 export function StudioContent() {
