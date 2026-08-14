@@ -49,6 +49,11 @@ const shots: Shot[] = [
     alt: "Symmetrical beauty portrait with pink eye makeup framed by a black fur collar",
     category: "Portrait",
   },
+  {
+    image: "/images/brand-a.png",
+    alt: "Model with a dark bob in a black-and-white outfit printed with stylized faces and a matching headband",
+    category: "Brand",
+  },
 ]
 
 function GalleryItem({ shot }: { shot: Shot }) {
