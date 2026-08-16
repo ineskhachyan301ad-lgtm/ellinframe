@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const amenities = ["Studio access", "Basic lighting kit", "All paper backdrops", "Changing room", "Refreshments"]
 
 const packages = [

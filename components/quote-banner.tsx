@@ -1,6 +1,6 @@
 export function QuoteBanner() {
   return (
-    <section className="relative w-full overflow-hidden bg-foreground">
+    <section className="relative left-1/2 right-1/2 w-screen -translate-x-1/2 overflow-hidden bg-foreground">
       <img
         src="/images/portfolio-quote-banner.png"
         alt="Figure reclining draped in flowing black fabric"

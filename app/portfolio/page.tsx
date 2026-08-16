@@ -5,7 +5,7 @@ import { MainFooter } from "@/components/main-footer"
 
 export default function PortfolioPage() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen overflow-x-hidden bg-background">
       <SiteHeader />
       <PortfolioGallery />
       <QuoteBanner />
