@@ -67,11 +67,11 @@ export function StudioContent() {
     </li>
   ))}
 </ul>
-              <img 
-  src="/logo.png" 
-  alt="Ellinframe Logo" 
-  className="absolute -bottom-25 -right-5 w-96 md:w-[450px] pointer-events-none select-none"
-/>
+             <img 
+          src="/logo.png" 
+          alt="Ellinframe Logo" 
+          className="absolute -bottom-[100px] right-5 w-96 md:w-[450px] pointer-events-none select-none opacity-20"
+        />
             </div>
 
             {/* Packages */}
