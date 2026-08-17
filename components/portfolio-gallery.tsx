@@ -61,13 +61,13 @@ function GalleryItem({ shot, onOpen }: { shot: Shot; onOpen: () => void }) {
     <button
       type="button"
       onClick={onOpen}
-      className="group mb-6 block w-full cursor-pointer overflow-hidden break-inside-avoid"
+      className="group mb-6 block w-full bg-black cursor-pointer overflow-hidden break-inside-avoid"
       aria-label={`View ${shot.alt}`}
     >
       <img
         src={shot.image || "/placeholder.svg"}
         alt={shot.alt}
-        className="w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+        className="w-full h-auto min-w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
       />
     </button>
   )
