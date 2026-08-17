@@ -119,6 +119,15 @@ export function StudioContent() {
             ))}
           </ul>
         </div>
+        {/* Book Now Button */}
+          <div className="mt-8 flex justify-center w-full">
+            <Link
+              href="/#booking"
+              className="inline-block bg-black text-white px-8 py-3 rounded-md hover:bg-neutral-800 transition-colors font-medium"
+            >
+              Book Now
+            </Link>
+          </div>
       </section>
     </>
   )
