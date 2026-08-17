@@ -99,7 +99,7 @@ export function StudioContent() {
           <div className="mt-12 flex justify-center w-full">
             <Link
               href="/#booking"
-              className="inline-block border border-foreground/30 bg-transparent px-10 py-3.5 text-[11px] font-medium text-foreground tracking-[0.25em] uppercase transition-all duration-300 hover:bg-foreground hover:text-background"
+              className="inline-block border border-foreground/30 bg-transparent px-6 py-10 text-[11px] font-medium text-foreground tracking-[0.25em] uppercase transition-all duration-300 hover:bg-foreground hover:text-background"
             >
               Book Now
             </Link>
@@ -108,7 +108,7 @@ export function StudioContent() {
       </section>
 
       {/* Available Equipment */}
-      <section className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+      <section className="mx-auto max-w-6xl px-6 py-10 md:py-14">
         <p className="text-[11px] font-medium tracking-[0.35em] text-gold">AVAILABLE EQUIPMENT</p>
         <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground text-balance md:text-4xl">
           Professional lighting &amp; grip — included.
