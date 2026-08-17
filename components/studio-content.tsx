@@ -28,7 +28,7 @@ export function StudioContent() {
           <img
             src="/images/studio-hero.png"
             alt="White cyclorama studio corner with a curved seamless wall and a large window looking onto the street"
-            className="h-full w-full object-cover object-[30%]"
+            className="h-full w-full object-cover object-[40%]"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent to-background/20" />
           <div className="absolute inset-0 flex items-center">
