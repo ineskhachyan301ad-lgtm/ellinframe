@@ -43,7 +43,7 @@ export function StudioContent() {
 
       {/* Offerings */}
       <section className="bg-[#f0ebe1]">
-        <div className="mx-auto max-w-6xl px-6 py-10 md:py-14">
+        <div className="mx-auto max-w-6xl px-6 pt-6 pb-10 md:pt-8 md:pb-14">
           <p className="text-[11px] font-medium tracking-[0.35em] text-gold">OFFERINGS</p>
           <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground md:text-4xl">
             Prices
@@ -96,7 +96,7 @@ export function StudioContent() {
               </div>
             </div>
           </div>
-          <div className="mt-12 flex justify-center w-full">
+          <div className="mt-6 flex justify-center w-full">
             <Link
               href="/#booking"
               className="inline-block border border-foreground/30 bg-transparent px-6 py-10 text-[11px] font-medium text-foreground tracking-[0.25em] uppercase transition-all duration-300 hover:bg-foreground hover:text-background"
@@ -108,7 +108,7 @@ export function StudioContent() {
       </section>
 
       {/* Available Equipment */}
-      <section className="mx-auto max-w-6xl px-6 py-10 md:py-14">
+      <section className="mx-auto max-w-6xl px-6 pt-6 pb-10 md:pt-8 md:pb-14">
         <p className="text-[11px] font-medium tracking-[0.35em] text-gold">AVAILABLE EQUIPMENT</p>
         <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground text-balance md:text-4xl">
           Professional lighting &amp; grip — included.
