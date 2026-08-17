@@ -68,13 +68,10 @@ export function StudioContent() {
   ))}
 </ul>
               <img 
-            src="/logo.png" 
-            alt="Ellinframe Logo" 
-            className="absolute -bottom-10 -right-10 w-96 md:w-[450px] pointer-events-none select-none opacity-60"
-            style={{
-              filter: 'invert(96%) sepia(8%) saturate(300%) hue-rotate(350deg) brightness(102%) contrast(92%)'
-            }}
-          />
+  src="/logo.png" 
+  alt="Ellinframe Logo" 
+  className="absolute -bottom-10 -right-10 w-96 md:w-[450px] pointer-events-none select-none"
+/>
             </div>
 
             {/* Packages */}
