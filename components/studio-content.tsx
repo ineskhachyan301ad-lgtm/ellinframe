@@ -43,7 +43,7 @@ export function StudioContent() {
 
       {/* Offerings */}
       <section className="bg-[#f0ebe1]">
-        <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+        <div className="mx-auto max-w-6xl px-6 py-10 md:py-14">
           <p className="text-[11px] font-medium tracking-[0.35em] text-gold">OFFERINGS</p>
           <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground md:text-4xl">
             Prices
