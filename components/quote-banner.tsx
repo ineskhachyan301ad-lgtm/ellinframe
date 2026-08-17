@@ -4,7 +4,7 @@ export function QuoteBanner() {
       <img
         src="/images/portfolio-quote-banner.png"
         alt="Figure reclining draped in flowing black fabric"
-        className="absolute inset-0 h-full w-full object-cover opacity-70"
+        className="absolute inset-0 h-full w-full object-cover opacity-70 scale-125 origin-left"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-foreground via-foreground/70 to-foreground/20" />
 
