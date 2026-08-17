@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-const amenities = ["Studio access", "Basic lighting kit", "All paper backdrops", "Changing room", "Refreshments"]
+const amenities = ["Studio access", "Basic lighting kit", "All paper backdrops", "Changing room", "Refreshments", "Full-length mirror", "High-speed Wi-Fi"]
 
 const packages = [
   { title: "Standard Session", price: "25.000 AMD", detail: "(10 edited Photos)" },
@@ -59,14 +59,14 @@ export function StudioContent() {
                 8,000 AMD
                 <span className="align-top text-xs text-foreground/50"> /hour</span>
               </p>
-              <ul className="mt-8 flex flex-col gap-3">
-                {amenities.map((a) => (
-                  <li key={a} className="flex items-center gap-3 text-sm text-foreground/70">
-                    <span className="h-px w-3 bg-gold" />
-                    {a}
-                  </li>
-                ))}
-              </ul>
+              <ul className="mt-8 flex flex-col gap-5">
+  {amenities.map((a) => (
+    <li key={a} className="flex items-center gap-3 text-base text-foreground/80">
+      <span className="h-px w-3 bg-gold" />
+      {a}
+    </li>
+  ))}
+</ul>
               <span className="absolute -bottom-8 right-2 font-serif text-[9rem] font-bold text-foreground/5 select-none pointer-events-none">
   EF
 </span>
