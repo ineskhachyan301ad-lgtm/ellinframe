@@ -46,12 +46,13 @@ export function StudioContent() {
         <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
           <p className="text-[11px] font-medium tracking-[0.35em] text-gold">OFFERINGS</p>
           <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground md:text-4xl">
-            Studio Rental &amp; Photography Packages
+            Studio Rental &amp; Prices
           </h2>
 
           <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-[1fr_1.6fr]">
             {/* Hourly rate card */}
             <div className="border border-foreground/10 bg-card p-8">
+            
               <p className="font-serif text-3xl text-foreground">
                 8,000 AMD
                 <span className="align-top text-xs text-foreground/50"> /hour</span>
@@ -68,6 +69,9 @@ export function StudioContent() {
 
             {/* Packages */}
             <div className="flex flex-col border border-foreground/10 bg-card p-8">
+            <h3 className="font-serif text-xl text-foreground border-b border-foreground/10 pb-4 mb-6">
+  Photography Packages
+</h3>
               <ul className="flex flex-col gap-6">
                 {packages.map((p) => (
                   <li key={p.title} className="border-b border-foreground/10 pb-4 last:border-b-0 last:pb-0">
