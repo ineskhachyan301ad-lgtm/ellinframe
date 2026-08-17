@@ -31,7 +31,7 @@ const rightColumn: Service[] = [
     num: "03",
     title: "Commercial",
     description: "Campaign imagery that sells — precise, polished, on brand.",
-    image: "/images/new_commercial.JPG",
+    image: "/images/new1_commercial.JPG",
     alt: "Commercial fashion detail with graphic print trousers",
     height: "h-[220px] md:h-[240px]",
   },
