@@ -51,7 +51,7 @@ export function StudioContent() {
 
           <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-[1fr_1.6fr]">
             {/* Hourly rate card */}
-            <div className="border border-foreground/10 bg-card p-8">
+            <div className="relative overflow-hidden border border-foreground/10 bg-card p-8">
 <h3 className="font-serif text-2xl text-foreground border-b border-foreground/10 pb-4 mb-6">
             Studio Rental
           </h3>
@@ -67,6 +67,9 @@ export function StudioContent() {
                   </li>
                 ))}
               </ul>
+              <span className="absolute -bottom-10 -right-6 font-serif text-[10rem] font-bold text-foreground/5 select-none pointer-events-none">
+  EF
+</span>
             </div>
 
             {/* Packages */}
