@@ -83,6 +83,15 @@ export function StudioContent() {
                 <span>PRICE FOR 1 HOUR</span>
                 <span>10 EDITED PHOTOS</span>
               </div>
+              <div className="mt-8 flex justify-center w-full">
+            <Link
+              href="/#booking"
+              className="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-neutral-900 px-8 py-3.5 text-sm font-medium text-white shadow-md transition-all duration-300 ease-out hover:scale-105 hover:bg-neutral-800 hover:shadow-xl active:scale-95 w-full"
+            >
+              <span className="relative z-10 tracking-wider uppercase text-xs">Book Now</span>
+              <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/10 to-transparent transition-transform duration-1000 group-hover:translate-x-full" />
+            </Link>
+          </div>
             </div>
           </div>
         </div>
@@ -119,15 +128,7 @@ export function StudioContent() {
             ))}
           </ul>
         </div>
-        {/* Book Now Button */}
-          <div className="mt-8 flex justify-center w-full">
-            <Link
-              href="/#booking"
-              className="inline-block bg-black text-white px-8 py-3 rounded-md hover:bg-neutral-800 transition-colors font-medium"
-            >
-              Book Now
-            </Link>
-          </div>
+        
       </section>
     </>
   )
