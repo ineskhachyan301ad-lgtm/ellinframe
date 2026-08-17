@@ -61,12 +61,12 @@ function GalleryItem({ shot, onOpen }: { shot: Shot; onOpen: () => void }) {
     <button
       type="button"
       onClick={onOpen}
-      className="relative mb-6 block w-full bg-black cursor-pointer overflow-hidden break-inside-avoid"
+      className="group relative mb-6 block w-full bg-black cursor-pointer overflow-hidden break-inside-avoid"
     >
       <img
         src={shot.image || "/placeholder.svg"}
         alt={shot.alt}
-        className="w-full h-auto object-cover scale-125 origin-right"
+        className="w-full h-auto object-cover transition-transform duration-700 ease-out group-hover:scale-105"
       />
     </button>
   )
