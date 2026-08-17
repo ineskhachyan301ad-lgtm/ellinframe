@@ -67,7 +67,7 @@ export function StudioContent() {
                   </li>
                 ))}
               </ul>
-              <span className="absolute -bottom-10 -right-6 font-serif text-[10rem] font-bold text-foreground/5 select-none pointer-events-none">
+              <span className="absolute -bottom-8 right-2 font-serif text-[9rem] font-bold text-foreground/5 select-none pointer-events-none">
   EF
 </span>
             </div>
