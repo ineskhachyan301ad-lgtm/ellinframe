@@ -67,7 +67,7 @@ function GalleryItem({ shot, onOpen }: { shot: Shot; onOpen: () => void }) {
       <img
         src={shot.image || "/placeholder.svg"}
         alt={shot.alt}
-        className="w-full h-auto min-w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+        className="w-full h-auto object-cover scale-105 origin-left transition-transform duration-700 ease-out group-hover:scale-110"
       />
     </button>
   )
