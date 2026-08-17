@@ -32,8 +32,8 @@ export function StudioContent() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent to-background/20" />
           <div className="absolute inset-0 flex items-center">
-            <div className="mx-auto flex w-full max-w-6xl justify-end px-6">
-              <h1 className="max-w-sm text-right font-serif text-4xl leading-tight text-foreground text-balance md:text-5xl">
+            <div className="mx-auto flex w-full max-w-6xl justify-start px-6">
+              <h1 className="max-w-sm text-left font-serif text-4xl leading-tight text-foreground text-balance md:text-5xl">
                 EllinFrame Studio &amp; Rental
               </h1>
             </div>
