@@ -70,7 +70,7 @@ export function StudioContent() {
               <img 
   src="/logo.png" 
   alt="Ellinframe Logo" 
-  className="absolute -bottom-10 -right-10 w-96 md:w-[450px] pointer-events-none select-none"
+  className="absolute -bottom-25 -right-10 w-96 md:w-[450px] pointer-events-none select-none"
 />
             </div>
 
