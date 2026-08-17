@@ -67,9 +67,14 @@ export function StudioContent() {
     </li>
   ))}
 </ul>
-              <span className="absolute -bottom-8 right-2 font-serif text-[9rem] font-bold text-foreground/5 select-none pointer-events-none">
-  EF
-</span>
+              <img 
+            src="/logo.png" 
+            alt="Ellinframe Logo" 
+            className="absolute -bottom-6 -right-6 w-64 md:w-80 pointer-events-none select-none opacity-80"
+            style={{
+              filter: 'invert(96%) sepia(8%) saturate(300%) hue-rotate(350deg) brightness(102%) contrast(92%)'
+            }}
+          />
             </div>
 
             {/* Packages */}
