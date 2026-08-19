@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-const amenities = ["Studio access", "Basic lighting kit", "All paper backdrops", "Changing room", "Refreshments", "Full-length mirror"]
+const amenities = ["Studio access", "Basic lighting kit", "All paper backdrops", "Changing room",  "Full-length mirror"]
 
 const packages = [
   { title: "Standard Session", price: "25.000 AMD", detail: "(10 edited Photos)" },
