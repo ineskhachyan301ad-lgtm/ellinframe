@@ -67,7 +67,7 @@ export function StudioContent() {
     </li>
   ))}
 </ul>
-            <div className="pointer-events-none absolute bottom-4 right-4 select-none font-serif text-[90px] font-bold leading-none opacity-5 md:text-[110px]">
+            <div className="pointer-events-none absolute bottom-4 right-4 select-none font-serif text-[110px] font-bold leading-none opacity-5 md:text-[110px]">
   EF
 </div>
             </div>
