@@ -24,7 +24,7 @@ export function StudioContent() {
     <>
       {/* Hero */}
       <section className="relative">
-        <div className="relative h-[340px] w-full overflow-hidden md:h-[440px]">
+        <div className="relative h-[500px] w-full overflow-hidden md:h-[650px]">
           <img
             src="/images/studio-hero.png"
             alt="White cyclorama studio corner with a curved seamless wall and a large window looking onto the street"
