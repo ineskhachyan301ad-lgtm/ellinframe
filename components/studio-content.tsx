@@ -70,6 +70,7 @@ export function StudioContent() {
              <div className="pointer-events-none absolute -bottom-10 right-4 select-none font-serif text-[180px] font-bold leading-none opacity-5 md:text-[220px]">
   EF
 </div>
+            </div>
             {/* Packages */}
             <div className="flex flex-col border border-foreground/10 bg-card p-8">
             <h3 className="font-serif text-2xl text-foreground border-b border-foreground/10 pb-4 mb-6">
