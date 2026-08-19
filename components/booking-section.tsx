@@ -118,7 +118,7 @@ export function BookingSection() {
   }
 
   return (
-    <section className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+    <section id="booking" className="mx-auto max-w-6xl scroll-mt-24 px-6 py-20 md:py-28">
       <div className="mb-12 text-center">
         <p className="text-[11px] font-medium tracking-[0.35em] text-gold">RESERVE YOUR SPOT</p>
         <h2 className="mt-4 font-serif text-4xl leading-tight text-foreground md:text-5xl">Book a Session</h2>

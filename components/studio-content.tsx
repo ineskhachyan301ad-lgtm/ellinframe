@@ -1,4 +1,6 @@
-const amenities = ["Studio access", "Basic lighting kit", "All paper backdrops", "Changing room", "Refreshments"]
+import Link from "next/link"
+
+const amenities = ["Studio access", "Basic lighting kit", "All paper backdrops", "Changing room",  "Full-length mirror"]
 
 const packages = [
   { title: "Standard Session", price: "25.000 AMD", detail: "(10 edited Photos)" },
@@ -11,12 +13,10 @@ const packages = [
 ]
 
 const equipment = [
-  "Profoto B10 Plus (×2)",
-  "Profoto B1X (×2)",
-  "Profoto Para 133",
-  "Profoto RFi Softbox 3×4 (×3)",
-  "Elinchrom Indirect 150cm",
-  "Bowens S-Type 150cm",
+  "(Godox SK 400 lll V)x2",
+  "Octobox Godox SB-FW95",
+  "(Softbox Godox SB-FW80120)x2",
+  "Godox Beauty Dish",
 ]
 
 export function StudioContent() {
@@ -24,16 +24,16 @@ export function StudioContent() {
     <>
       {/* Hero */}
       <section className="relative">
-        <div className="relative h-[340px] w-full overflow-hidden md:h-[440px]">
+        <div className="relative h-[450px] w-full overflow-hidden md:h-[550px]">
           <img
             src="/images/studio-hero.png"
-            alt="Bright sunlit photography studio loft with floor-to-ceiling windows"
-            className="h-full w-full object-cover"
+            alt="White cyclorama studio corner with a curved seamless wall and a large window looking onto the street"
+            className="h-full w-full object-cover object-[50%_60%]"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent to-background/20" />
           <div className="absolute inset-0 flex items-center">
-            <div className="mx-auto flex w-full max-w-6xl justify-end px-6">
-              <h1 className="max-w-sm text-right font-serif text-4xl leading-tight text-foreground text-balance md:text-5xl">
+            <div className="mx-auto flex w-full max-w-6xl justify-start px-6">
+              <h1 className="max-w-sm text-left font-serif text-4xl leading-tight text-foreground text-balance md:text-5xl">
                 EllinFrame Studio &amp; Rental
               </h1>
             </div>
@@ -43,31 +43,39 @@ export function StudioContent() {
 
       {/* Offerings */}
       <section className="bg-[#f0ebe1]">
-        <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+        <div className="mx-auto max-w-6xl px-6 pt-6 pb-10 md:pt-8 md:pb-14">
           <p className="text-[11px] font-medium tracking-[0.35em] text-gold">OFFERINGS</p>
           <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground md:text-4xl">
-            Studio Rental &amp; Photography Packages
+            Prices
           </h2>
 
           <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-[1fr_1.6fr]">
             {/* Hourly rate card */}
-            <div className="border border-foreground/10 bg-card p-8">
+            <div className="relative overflow-hidden border border-foreground/10 bg-card p-8">
+<h3 className="font-serif text-2xl text-foreground border-b border-foreground/10 pb-4 mb-6">
+            Studio Rental
+          </h3>
               <p className="font-serif text-3xl text-foreground">
                 8,000 AMD
                 <span className="align-top text-xs text-foreground/50"> /hour</span>
               </p>
-              <ul className="mt-8 flex flex-col gap-3">
-                {amenities.map((a) => (
-                  <li key={a} className="flex items-center gap-3 text-sm text-foreground/70">
-                    <span className="h-px w-3 bg-gold" />
-                    {a}
-                  </li>
-                ))}
-              </ul>
+              <ul className="mt-8 flex flex-col gap-5">
+  {amenities.map((a) => (
+    <li key={a} className="flex items-center gap-3 text-base text-foreground/80">
+      <span className="h-px w-3 bg-gold" />
+      {a}
+    </li>
+  ))}
+</ul>
+            <div className="pointer-events-none absolute bottom-4 right-4 select-none font-serif text-[130px] font-bold leading-none opacity-5 md:text-[130px]">
+  EF
+</div>
             </div>
-
             {/* Packages */}
             <div className="flex flex-col border border-foreground/10 bg-card p-8">
+            <h3 className="font-serif text-2xl text-foreground border-b border-foreground/10 pb-4 mb-6">
+  Photography Packages
+</h3>
               <ul className="flex flex-col gap-6">
                 {packages.map((p) => (
                   <li key={p.title} className="border-b border-foreground/10 pb-4 last:border-b-0 last:pb-0">
@@ -85,11 +93,19 @@ export function StudioContent() {
               </div>
             </div>
           </div>
+        <div className="mt-8 flex justify-center w-full">
+  <Link
+    href="/#booking"
+    className="inline-block border border-foreground/30 bg-transparent px-6 py-3 text-[11px] font-medium text-foreground tracking-[0.25em] uppercase transition-all duration-300 hover:bg-foreground hover:text-background"
+  >
+    Book Now
+  </Link>
+</div>
         </div>
       </section>
 
       {/* Available Equipment */}
-      <section className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+      <section className="mx-auto max-w-6xl px-6 pt-6 pb-10 md:pt-8 md:pb-14">
         <p className="text-[11px] font-medium tracking-[0.35em] text-gold">AVAILABLE EQUIPMENT</p>
         <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground text-balance md:text-4xl">
           Professional lighting &amp; grip — included.
@@ -104,7 +120,7 @@ export function StudioContent() {
             <div className="group mt-10 h-[260px] w-full max-w-sm overflow-hidden">
               <img
                 src="/images/studio-setup.png"
-                alt="Professional studio lighting and grip setup"
+                alt="Studio lighting setup with a Godox octabox, gridded softbox and a Canon camera on a pedestal"
                 className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
               />
             </div>
@@ -119,6 +135,7 @@ export function StudioContent() {
             ))}
           </ul>
         </div>
+        
       </section>
     </>
   )
