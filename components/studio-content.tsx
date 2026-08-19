@@ -67,11 +67,9 @@ export function StudioContent() {
     </li>
   ))}
 </ul>
-             <img 
-          src="/logo.png" 
-          alt="Ellinframe Logo" 
-          className="absolute -bottom-[100px] right-5 w-96 md:w-[450px] pointer-events-none select-none opacity-20"
-        />
+             <div className="pointer-events-none absolute -bottom-6 right-2 select-none font-serif text-[110px] font-bold leading-none opacity-5">
+  EF
+</div>
             </div>
 
             {/* Packages */}
