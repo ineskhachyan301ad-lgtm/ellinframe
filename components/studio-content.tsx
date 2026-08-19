@@ -93,14 +93,14 @@ export function StudioContent() {
               </div>
             </div>
           </div>
-          <div className="mt-6 flex justify-center w-full">
-            <Link
-              href="/#booking"
-              className="inline-block border border-foreground/30 bg-transparent px-6 py-10 text-[11px] font-medium text-foreground tracking-[0.25em] uppercase transition-all duration-300 hover:bg-foreground hover:text-background"
-            >
-              Book Now
-            </Link>
-          </div>
+          <div className="mt-4 flex justify-center w-full">
+  <Link
+    href="/#booking"
+    className="inline-block border border-foreground/30 bg-transparent px-6 py-3 text-[11px] font-medium text-foreground tracking-[0.25em] uppercase transition-all duration-300 hover:bg-foreground hover:text-background"
+  >
+    Book Now
+  </Link>
+</div>
         </div>
       </section>
 
